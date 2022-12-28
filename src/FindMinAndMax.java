@@ -1,9 +1,9 @@
 public class FindMinAndMax {
     public static void main(String[] args) {
         int arr[] = {1,2,42,1};
-        minAndmax(arr);
+        findMinAndMax(arr);
     }
-    public static void minAndmax(int arr[]){
+    public static void findMinAndMax(int arr[]){
         //edge cases handles
         if(arr.length == 0 || arr == null) return;
         int min = arr[0];
