@@ -1,5 +1,5 @@
 public class reverse {
-    public static void rev(int arr[]) {
+    public static void reverseArray(int arr[]) {
         int start = 0 ;
         int end =  arr.length -1;
         while (start<end) {
@@ -15,7 +15,7 @@ public class reverse {
         for (int i : arr) {
             System.out.print(arr[i] + "  ");
         }
-        rev(arr);
+        reverseArray(arr);
         System.out.println("after reversing --");
         for (int i =0; i < arr.length; i++) {
             System.out.print(arr[i] +" ");
